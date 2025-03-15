@@ -10,7 +10,9 @@
     "semantic-release": "semantic-release"
   },
   "release": {
-    "branches": ["master"]
+    "branches": [
+      "master"
+    ]
   },
   "author": "Fatec Votorantim - DSM",
   "license": "ISC",
