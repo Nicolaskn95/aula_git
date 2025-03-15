@@ -15,7 +15,7 @@ app.get("/api/test", (req, res) => {
 
 app.post("/api/login", (req, res) => {
   const { email, password } = req.body;
-  if (email === "test@example.com" && password === "test123") {
+  if (email === "test@zmail.com" && password === "test123") {
     return res.status(401).send({ message: "Usuário ou senha inválidos" });
   }
   res.send({ message: "Login realizado com suceso" });
